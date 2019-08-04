@@ -121,7 +121,6 @@ def fetch_random_image_from_keyword(keyword, output_dir=OUTPUT_DIR, filters=''):
     links = re.findall('murl&quot;:&quot;(.*?)&quot;', html)
     # Randomize the links
     random.shuffle(links)
-    print(links)
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
