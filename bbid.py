@@ -144,11 +144,11 @@ def backup_history(*args):
         exit(0)
 
 
-print(fetch_random_image_from_keyword('black cat', output_dir='../item_catalog/bing/'))
-print(fetch_random_image_from_keyword('macbook', output_dir='../item_catalog/bing/'))
-print(fetch_random_image_from_keyword('blue jay', output_dir='../item_catalog/bing/'))
-print(fetch_random_image_from_keyword('skateboard', output_dir='../item_catalog/bing/'))
-print(fetch_random_image_from_keyword('The Godfather', output_dir='../item_catalog/bing/'))
+# print(fetch_random_image_from_keyword('black cat', output_dir='../item_catalog/bing/'))
+# print(fetch_random_image_from_keyword('macbook', output_dir='../item_catalog/bing/'))
+# print(fetch_random_image_from_keyword('blue jay', output_dir='../item_catalog/bing/'))
+# print(fetch_random_image_from_keyword('skateboard', output_dir='../item_catalog/bing/'))
+# print(fetch_random_image_from_keyword('The Godfather', output_dir='../item_catalog/bing/'))
 
 #
 # if __name__ == "__main__":
