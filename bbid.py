@@ -56,6 +56,7 @@ def download(pool_sema: threading.Semaphore, url: str, output_dir: str):
         i += 1
         filename = "%s-%d%s" % (name, i, ext)
     IN_PROGRESS.append(filename)
+    image_file_path = ''
     try:
         request = urllib.request.Request(url, None, URLOPENHEADER)
         image = urllib.request.urlopen(request).read()
